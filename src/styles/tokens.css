@@ -1,0 +1,37 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --ncco-color-jungle-50: #daf3eb;
+  --ncco-color-jungle-300: #48c69d;
+  --ncco-color-jungle-600: #00b076;
+  --ncco-color-jungle-900: #007d54;
+  --ncco-color-white: #ffffff;
+  --ncco-color-black: #000000;
+  --ncco-color-tomato-50: #f7e4e5;
+  --ncco-color-tomato-300: #cb4749;
+  --ncco-color-tomato-600: #913234;
+  --ncco-color-tomato-900: #571e1f;
+  --ncco-color-charcoal-50: #dee3ef;
+  --ncco-color-charcoal-300: #5d747e;
+  --ncco-color-charcoal-600: #1d3d4b;
+  --ncco-color-charcoal-900: #142b35;
+  --ncco-color-neutral-200: #d5dade;
+  --ncco-color-neutral-500: #c7cdd3;
+  --ncco-color-neutral-900: #75767a;
+  --ncco-color-base-primary: var(--ncco-color-charcoal-600);
+  --ncco-color-base-secondary: var(--ncco-color-neutral-500);
+  --ncco-color-base-foreground: var(--ncco-color-white);
+  --ncco-color-base-destructive: var(--ncco-color-tomato-600);
+  --ncco-color-base-muted-foreground: var(--ncco-color-charcoal-50);
+  --ncco-color-text-default: var(--ncco-color-charcoal-900);
+  --ncco-color-text-muted: var(--ncco-color-charcoal-300);
+  --ncco-color-text-inverse: var(--ncco-color-white);
+  --ncco-color-background-default: var(--ncco-color-white);
+  --ncco-color-background-subtle: var(--ncco-color-charcoal-50);
+  --ncco-color-border-default: var(--ncco-color-neutral-200);
+  --ncco-color-border-focus: var(--ncco-color-charcoal-600);
+  --ncco-color-focus-ring: var(--ncco-color-neutral-200);
+  --ncco-color-focus-ring-error: var(--ncco-color-tomato-50);
+}

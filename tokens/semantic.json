@@ -1,0 +1,28 @@
+{
+  "color": {
+    "base": {
+      "primary": { "$type": "color", "$value": "{color.charcoal.600}" },
+      "secondary": { "$type": "color", "$value": "{color.neutral.500}" },
+      "foreground": { "$type": "color", "$value": "{color.white}" },
+      "destructive": { "$type": "color", "$value": "{color.tomato.600}" },
+      "mutedForeground": { "$type": "color", "$value": "{color.charcoal.50}" }
+    },
+    "text": {
+      "default": { "$type": "color", "$value": "{color.charcoal.900}" },
+      "muted": { "$type": "color", "$value": "{color.charcoal.300}" },
+      "inverse": { "$type": "color", "$value": "{color.white}" }
+    },
+    "background": {
+      "default": { "$type": "color", "$value": "{color.white}" },
+      "subtle": { "$type": "color", "$value": "{color.charcoal.50}" }
+    },
+    "border": {
+      "default": { "$type": "color", "$value": "{color.neutral.200}" },
+      "focus": { "$type": "color", "$value": "{color.charcoal.600}" }
+    },
+    "focus": {
+      "ring": { "$type": "color", "$value": "{color.neutral.200}" },
+      "ringError": { "$type": "color", "$value": "{color.tomato.50}" }
+    }
+  }
+}
