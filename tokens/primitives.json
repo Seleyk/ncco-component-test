@@ -83,6 +83,16 @@
         "$type": "color",
         "$value": "#cb4749"
       },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ee4b2b"
+      },
       "600": {
         "$extensions": {
           "com.figma.scopes": [
