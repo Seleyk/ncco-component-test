@@ -6,7 +6,10 @@ const sd = new StyleDictionary({
   },
   source: [
     'tokens/primitives.json',
-    'tokens/semantic.json'
+    'tokens/semantic.json',
+    'tokens/spacing.json',
+    'tokens/radius.json',
+    'tokens/typography.json'
   ],
   platforms: {
     css: {
