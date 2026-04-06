@@ -58,3 +58,15 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 - `react` and `react-dom` set as peer dependencies
 - `exports` field configured for ES and CJS consumption
 - `files` field scoped to `dist/` only
+
+## [0.1.1] - 2026-04-06
+
+### Fixed
+- TypeScript declaration files now correctly export Button and buttonVariants
+- Added styles.d.ts declaration for @ncco/ui-alpha/styles side-effect import
+- Resolved vite-plugin-dts path alias resolution issue via tsconfigPath option
+- types condition moved before import/require in package.json exports field
+
+### Added
+- Consumption setup documented in README
+- @source directive guidance for Tailwind v4 consuming projects

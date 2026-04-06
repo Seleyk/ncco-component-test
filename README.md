@@ -84,6 +84,87 @@ Outputs to `dist/`:
 
 ---
 
+## Consuming This Package
+
+### 1. Install
+```bash
+npm install @ncco/ui-alpha
+```
+
+### 2. Install Tailwind CSS
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+Configure `vite.config.ts`:
+```ts
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+```
+
+### 3. Configure styles
+
+In your main CSS file:
+```css
+@import "tailwindcss";
+@import "@ncco/ui-alpha/styles";
+@source "../node_modules/@ncco/ui-alpha/dist/ncco-ui.es.js";
+
+:root {
+  --primary: var(--ncco-color-base-primary);
+  --primary-foreground: var(--ncco-color-base-foreground);
+  --secondary: var(--ncco-color-base-secondary);
+  --secondary-foreground: var(--ncco-color-text-default);
+  --destructive: var(--ncco-color-base-destructive);
+  --border: var(--ncco-color-border-default);
+  --ring: var(--ncco-color-focus-ring);
+  --background: var(--ncco-color-background-default);
+  --foreground: var(--ncco-color-text-default);
+  --radius: var(--ncco-rounded-md);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-muted: oklch(0.967 0.001 286.375);
+  --color-muted-foreground: var(--ncco-color-base-muted-foreground);
+  --color-input: var(--border);
+  --radius-sm: var(--ncco-rounded-sm);
+  --radius-md: var(--ncco-rounded-md);
+  --radius-lg: var(--ncco-rounded-lg);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+```
+
+### 4. Use components
+```tsx
+import { Button } from '@ncco/ui-alpha'
+
+<Button variant="default">Submit</Button>
+<Button variant="destructive">Delete</Button>
+```
+
+---
+
 ## Components
 
 ### Button

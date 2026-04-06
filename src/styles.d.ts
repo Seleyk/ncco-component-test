@@ -1,0 +1,1 @@
+declare module '@ncco/ui-alpha/styles'
