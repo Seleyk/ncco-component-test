@@ -7,7 +7,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* TODO: add feature that allow you to append the non color values in the semantic token file to their respective suffix or measurement
--- so that way we only have two tokens files */
+-- so that way we only have two tokens files. */
 
 :root {
   --background: var(--ncco-colors-background-light);
