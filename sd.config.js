@@ -5,8 +5,8 @@ const sd = new StyleDictionary({
     verbosity: 'verbose'
   },
   source: [
-    'tokens/primitives.json',
-    'tokens/semantic.json',
+    'tokens/ncco-primitives.json',
+    'tokens/ncco-semantic.json',
     'tokens/spacing.json',
     'tokens/radius.json',
     'tokens/typography.json'
