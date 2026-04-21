@@ -70,3 +70,31 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 ### Added
 - Consumption setup documented in README
 - @source directive guidance for Tailwind v4 consuming projects
+
+## [0.1.3] - 2026-04-17
+
+### Changed
+- Migrated token pipeline to new NCCO design system structure
+- Replaced primitive.json and semantic.json with ncco-primitives.json and ncco-semantic.json
+- New primitive palette: charcoal-blue, blushed-brick, soft-green, emerald, teal, neutral, base
+- New semantic layer mirrors Figma NCCO Semantic collection with light/dark aliases
+- Removed redundant font-weight group from ncco-semantic.json to resolve Style Dictionary collisions
+- Token pipeline now resolves three-layer chain: primitives → semantic → CSS variables
+- Light and dark mode CSS variables fully wired to ncco-semantic tokens
+- @theme inline references :root variables for correct dark mode switching
+- Font variable updated to ncco-font-font-sans-condensed
+- Circular font reference resolved
+- All sidebar, chart, and component tokens wired"
+
+### Notes
+- spacing.json, radius.json, and typography.json retained as separate files
+- Figma number tokens (unitless) will be handled via custom Style Dictionary transform in a future optimization pass
+
+## [0.1.4] - 2026-04-21
+
+### Added
+- Interaction tests for all Button variants: Default, Secondary, Destructive, Disabled
+- data-variant attribute assertions confirming correct variant prop applied to DOM
+- Accessibility audit complete — 0 violations across all variants except Destructive
+- Destructive contrast violation (4.43 ratio, requires 4.5) intentionally retained for demo purposes
+- Known issue documented: destructive-foreground-light should reference base.white not neutral.50
