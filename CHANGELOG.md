@@ -89,3 +89,12 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 ### Notes
 - spacing.json, radius.json, and typography.json retained as separate files
 - Figma number tokens (unitless) will be handled via custom Style Dictionary transform in a future optimization pass
+
+## [0.1.4] - 2026-04-21
+
+### Added
+- Interaction tests for all Button variants: Default, Secondary, Destructive, Disabled
+- data-variant attribute assertions confirming correct variant prop applied to DOM
+- Accessibility audit complete — 0 violations across all variants except Destructive
+- Destructive contrast violation (4.43 ratio, requires 4.5) intentionally retained for demo purposes
+- Known issue documented: destructive-foreground-light should reference base.white not neutral.50
