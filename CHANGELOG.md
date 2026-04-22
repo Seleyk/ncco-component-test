@@ -98,3 +98,12 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 - Accessibility audit complete — 0 violations across all variants except Destructive
 - Destructive contrast violation (4.43 ratio, requires 4.5) intentionally retained for demo purposes
 - Known issue documented: destructive-foreground-light should reference base.white not neutral.50
+
+## [0.1.5] - 2026-04-22
+
+## Changed 
+- Modified peerDependencies react and react-dom to accept ^18.0.0
+
+## Notes
+- Known risk documented: accepting v18 could risk compatibility issues
+- potentially will change back to requiring v19 in the future if consuming projects upgrade to vite/react 19+
