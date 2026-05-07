@@ -119,7 +119,7 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 - Dark mode :root.dark variable block added to Vite setup in README
 - Azure Artifacts install instructions added to README consuming guide
 
-### Changed
+### Changes
 - README fully rewritten to reflect current project state
 - Token file names updated in README: ncco-primitives.json and ncco-semantic.json
 - CSS variable names corrected throughout README to match generated --ncco-colors-* format
@@ -127,6 +127,10 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 - Project structure in README updated to reflect current file layout
 - Destructive background active state modified (distructive/90)
 - Secondary background active state modified (secondary/90)
+
+### Fixes
+- copy:styles script rewritten using Node.js fs module for cross-platform compatibility
+- Replaces Unix cp command which fails on Windows
 
 ### Notes
 - Destructive foreground contrast fix (neutral.50 → base.white) intentionally held for pipeline demo
