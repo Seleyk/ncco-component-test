@@ -7,7 +7,6 @@ function App() {
       <h1 className="text-3xl font-bold">Button Component</h1>
       <div className="flex gap-4 flex-col md:flex-row items-center justify-center mt-4">
         <Button variant="default">
-          
           Add story
         </Button>
         <Button variant="secondary">Secondary</Button>
