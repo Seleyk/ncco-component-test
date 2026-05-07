@@ -107,3 +107,27 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 ## Notes
 - Known risk documented: accepting v18 could risk compatibility issues
 - potentially will change back to requiring v19 in the future if consuming projects upgrade to vite/react 19+
+
+## [0.1.6] - 2026-05-07
+
+### Added
+- Published to Azure Artifacts — xperimental.ncco-ui feed (nccoit organization)
+- publishConfig added to package.json pointing to Azure Artifacts registry
+- .npmrc configured for Azure Artifacts authentication (gitignored)
+- CRA + Bootstrap/Argon compatibility shim documented in README
+- Full CRA legacy setup section added to README including .ncco-ui wrapper strategy
+- Dark mode :root.dark variable block added to Vite setup in README
+- Azure Artifacts install instructions added to README consuming guide
+
+### Changed
+- README fully rewritten to reflect current project state
+- Token file names updated in README: ncco-primitives.json and ncco-semantic.json
+- CSS variable names corrected throughout README to match generated --ncco-colors-* format
+- Component status table updated to v0.1.5 with full test coverage documented
+- Project structure in README updated to reflect current file layout
+- Destructive background active state modified (distructive/90)
+- Secondary background active state modified (secondary/90)
+
+### Notes
+- Destructive foreground contrast fix (neutral.50 → base.white) intentionally held for pipeline demo
+- CRA compatibility shim is documented technical debt — removed entirely on Vite migration

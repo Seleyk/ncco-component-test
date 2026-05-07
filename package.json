@@ -20,6 +20,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://nccoit.pkgs.visualstudio.com/23fa59eb-54d0-4673-a6bc-c9bbe129f41b/_packaging/xperimental.ncco-ui/npm/registry/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
