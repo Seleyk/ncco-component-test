@@ -267,8 +267,8 @@
   --ncco-colors-card-foreground-dark: var(--ncco-colors-neutral-50);
   --ncco-colors-destructive-light: var(--ncco-colors-blushed-brick-800);
   --ncco-colors-destructive-dark: var(--ncco-colors-blushed-brick-600);
-  --ncco-colors-destructive-foreground-light: var(--ncco-colors-blushed-brick-50);
-  --ncco-colors-destructive-foreground-dark: var(--ncco-colors-blushed-brick-50);
+  --ncco-colors-destructive-foreground-light: var(--ncco-colors-base-white);
+  --ncco-colors-destructive-foreground-dark: var(--ncco-colors-base-white);
   --ncco-colors-accent-foreground-light: var(--ncco-colors-neutral-900);
   --ncco-colors-foreground-light: var(--ncco-colors-neutral-950);
   --ncco-colors-foreground-dark: var(--ncco-colors-neutral-50);

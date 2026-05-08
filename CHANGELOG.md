@@ -135,3 +135,15 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 ### Notes
 - Destructive foreground contrast fix (neutral.50 → base.white) intentionally held for pipeline demo
 - CRA compatibility shim is documented technical debt — removed entirely on Vite migration
+
+## [0.1.7] - 2026-05-08
+
+### Fixed
+- destructive-foreground-light updated from blushed-brick/50 to base/white (#ffffff)
+- destructive-foreground-dark updated from neutral/50 to base/white (#ffffff)
+- Resolves WCAG AA contrast violation on Destructive button variant (4.43 → 4.56 ratio)
+- Fix applied via Figma token update → Style Dictionary pipeline → published package
+- Button destructive variant now uses text-destructive-foreground instead of text-primary-foreground
+- Added --destructive-foreground to :root and @theme inline in index.css
+- Full token chain now resolves: text-destructive-foreground → base/white (#ffffff)
+- Resolves WCAG AA contrast violation on Destructive variant — 0 violations across all variants
