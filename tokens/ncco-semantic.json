@@ -110,7 +110,7 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "color",
-      "$value": "{colors.base.white}"
+      "$value": "{colors.blushed-brick.400}"
     },
     "destructive-foreground-dark": {
       "$extensions": {
