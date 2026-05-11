@@ -5,7 +5,7 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "color",
-      "$value": "{colors.charcoal-blue.800}"
+      "$value": "{colors.neutral.900}"
     },
     "primary-dark": {
       "$extensions": {
@@ -110,7 +110,7 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "color",
-      "$value": "{colors.base.white}"
+      "$value": "{colors.blushed-brick.400}"
     },
     "destructive-foreground-dark": {
       "$extensions": {

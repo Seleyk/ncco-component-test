@@ -253,7 +253,7 @@
   --ncco-spacing-0-5: 2px;
   --ncco-spacing-1-5: 6px;
   --ncco-spacing-2-5: 10px;
-  --ncco-colors-primary-light: var(--ncco-colors-neutral-900);
+  --ncco-colors-primary-light: var(--ncco-colors-charcoal-blue-800);
   --ncco-colors-primary-dark: var(--ncco-colors-neutral-200);
   --ncco-colors-accent-light: var(--ncco-colors-neutral-100);
   --ncco-colors-accent-foreground-dark: var(--ncco-colors-neutral-50);
@@ -267,7 +267,7 @@
   --ncco-colors-card-foreground-dark: var(--ncco-colors-neutral-50);
   --ncco-colors-destructive-light: var(--ncco-colors-blushed-brick-800);
   --ncco-colors-destructive-dark: var(--ncco-colors-blushed-brick-600);
-  --ncco-colors-destructive-foreground-light: var(--ncco-colors-blushed-brick-400);
+  --ncco-colors-destructive-foreground-light: var(--ncco-colors-base-white);
   --ncco-colors-destructive-foreground-dark: var(--ncco-colors-base-white);
   --ncco-colors-accent-foreground-light: var(--ncco-colors-neutral-900);
   --ncco-colors-foreground-light: var(--ncco-colors-neutral-950);
