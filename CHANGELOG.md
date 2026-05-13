@@ -147,3 +147,9 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 - Added --destructive-foreground to :root and @theme inline in index.css
 - Full token chain now resolves: text-destructive-foreground → base/white (#ffffff)
 - Resolves WCAG AA contrast violation on Destructive variant — 0 violations across all variants
+
+## [0.1.8] - 2026-05-10
+
+### Changes
+- Changed outline Button from ring to --primary
+- Updated outline Button hover state to fill --primary and text to --background
