@@ -193,6 +193,8 @@ In your main CSS file:
 @import "@ncco/ui-alpha/styles";
 @source "../node_modules/@ncco/ui-alpha/dist/ncco-ui.es.js";
 
+@custom-variant dark (&:is(.dark *));
+
 :root {
   --primary: var(--ncco-colors-primary-light);
   --primary-foreground: var(--ncco-colors-primary-foreground-light);
@@ -222,6 +224,7 @@ In your main CSS file:
   --secondary: var(--ncco-colors-secondary-dark);
   --secondary-foreground: var(--ncco-colors-secondary-foreground-dark);
   --destructive: var(--ncco-colors-destructive-dark);
+  --destructive-foreground: var(--ncco-colors-destructive-foreground-dark);
   --background: var(--ncco-colors-background-dark);
   --foreground: var(--ncco-colors-foreground-dark);
   --border: var(--ncco-colors-border-dark);
