@@ -153,3 +153,22 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 ### Changes
 - Changed outline Button from ring to --primary
 - Updated outline Button hover state to fill --primary and text to --background
+
+## [0.1.9] - 2026-05-13
+
+### Added
+- `Input` component — text, password, and file variants with full state
+  support (default, filled, disabled, invalid)
+- `Field` component family — `Field`, `FieldLabel`, `FieldDescription`,
+  `FieldError`, `FieldGroup`, `FieldLegend`, `FieldSeparator`,
+  `FieldSet`, `FieldContent`, `FieldTitle`
+- `Label` and `Separator` as supporting primitives
+- Storybook stories for `Input` and `Field` covering all states
+- NCCO brand theming in Storybook (sidebar logo, favicon, primary color)
+
+### Changed
+- Stripped dark mode classes from `Input`, `Field`, and `Button`
+- Updated `index.ts` with all new component exports
+
+### Fixed
+- `buttonVariants` Fast Refresh incompatibility — moved to `button.variants.ts`
