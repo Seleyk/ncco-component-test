@@ -1,5 +1,7 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
+import { Field, FieldGroup, FieldLabel } from "./components/ui/field";
+import { Input } from "./components/ui/input";
 
 function App() {
   return (
@@ -13,6 +15,10 @@ function App() {
         <Button variant="ghost">Ghost</Button>
         <Button variant="link">Link</Button>
       </div>
+      <FieldGroup>
+        <FieldLabel htmlFor="email">Email</FieldLabel>
+        <Input id="email" type="email" placeholder="jjohn@ncco.com" />
+      </FieldGroup>
     </div>
   );
 }
