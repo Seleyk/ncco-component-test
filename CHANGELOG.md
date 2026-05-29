@@ -172,3 +172,13 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 
 ### Fixed
 - `buttonVariants` Fast Refresh incompatibility — moved to `button.variants.ts`
+
+## [0.2.0] - 2026-05-29
+
+### Added
+- `Card` component family — `Card`, `CardHeader`, `CardTitle`,
+  `CardDescription`, `CardAction`, `CardContent`, `CardFooter`
+- Storybook stories for all Card variants including DashboardCard
+
+### Changed
+- Cleaned up `App.css` — removed Vite starter boilerplate

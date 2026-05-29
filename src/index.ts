@@ -1,10 +1,10 @@
-export { Button } from './components/ui/button'
-export { buttonVariants } from './components/ui/button.variants'
-export { cn } from './lib/utils'
+export { Button } from "./components/ui/button";
+export { buttonVariants } from "./components/ui/button.variants";
+export { cn } from "./lib/utils";
 
-export { Input } from './components/ui/input'
-export { Label } from './components/ui/label'
-export { Separator } from './components/ui/separator'
+export { Input } from "./components/ui/input";
+export { Label } from "./components/ui/label";
+export { Separator } from "./components/ui/separator";
 export {
   Field,
   FieldLabel,
@@ -16,4 +16,13 @@ export {
   FieldSet,
   FieldContent,
   FieldTitle,
-} from './components/ui/field'
+} from "./components/ui/field";
+export {
+  Card,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardAction,
+  CardDescription,
+  CardContent,
+} from "./components/ui/card";
