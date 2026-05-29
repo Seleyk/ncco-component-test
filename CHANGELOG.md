@@ -182,3 +182,11 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 
 ### Changed
 - Cleaned up `App.css` — removed Vite starter boilerplate
+
+## [0.2.1] - 2026-05-29
+
+### Added
+- `Badge` component with 6 variants: default, secondary,
+  destructive, outline, ghost, link
+- `badgeVariants` exported from `badge.variants.ts`
+- Storybook stories including AllVariants and DashboardUsage
