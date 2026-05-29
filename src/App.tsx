@@ -1,4 +1,5 @@
 import "./App.css";
+import { Badge } from "./components/ui/badge";
 import { Button } from "./components/ui/button";
 import {
   Card,
@@ -9,7 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./components/ui/card";
-import { FieldGroup, FieldLabel } from "./components/ui/field";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
 
@@ -32,7 +32,8 @@ function App() {
             Enter your email below to login to your account
           </CardDescription>
           <CardAction>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <Badge variant="outline">Active</Badge>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> */}
           </CardAction>
         </CardHeader>
         <CardContent>
