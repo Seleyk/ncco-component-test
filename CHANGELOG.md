@@ -3,6 +3,17 @@
 All notable changes to @ncco/ui will be documented here.
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.5] - 2026-06-02
+
+### Added
+- `Table` component family — `Table`, `TableHeader`, `TableBody`,
+  `TableFooter`, `TableHead`, `TableRow`, `TableCell`, `TableCaption`
+- No dark mode classes — token-ready out of the box
+- Storybook stories: Default, WithCaption, WithFooter,
+  DevicesTable, AgreementsTable
+- Note: dark table header treatment (as seen in dashboard design)
+  is applied at the consuming app level via className passthrough
+
 ## [0.2.4] - 2026-06-02
 
 ### Added

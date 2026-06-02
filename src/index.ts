@@ -39,3 +39,13 @@ export {
   ChartStyle,
 } from './components/ui/chart'
 export type { ChartConfig } from './components/ui/chart'
+export {
+  Table,
+  TableHeader,
+  TableBody,
+  TableFooter,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableCaption,
+} from './components/ui/table'
