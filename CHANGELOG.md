@@ -3,6 +3,12 @@
 All notable changes to @ncco/ui will be documented here.
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.2] - 2026-06-02
+
+### Added
+- `Progress` component — Radix UI primitive with primary and destructive variants
+- Storybook stories including DashboardUsage showing subscription renewal states
+
 ## [0.2.1] - 2026-05-29
 
 ### Added
