@@ -90,7 +90,7 @@ const metricDonutData = [
 
 const metricConfig = {
   active: { label: `Active ${metricDonutData[0].value}%`, color: 'var(--chart-3)' },
-  inactive: { label: `Inactive ${metricDonutData[1].value}%`, color: 'var(--destructive)' },
+  inactive: { label: `Inactive ${metricDonutData[1].value}%`, color: 'var(--ncco-colors-muted-foreground-light)' },
 } satisfies ChartConfig
 
 export const DonutMetricCard: Story = {

@@ -3,6 +3,14 @@
 All notable changes to @ncco/ui will be documented here.
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.4] - 2026-06-02
+
+### Added
+- `MetricCard` component — composes Card, ChartContainer, PieChart
+- Supports title, value, donut percentages, trend indicator, icon, size
+- `MetricCardProps` and `MetricCardTrend` types exported
+- Storybook stories including DashboardRow dashboard composition
+
 ## [0.2.3] - 2026-06-02
 
 ### Added

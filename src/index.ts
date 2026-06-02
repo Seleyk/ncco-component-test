@@ -7,6 +7,8 @@ export { Input } from "./components/ui/input";
 export { Label } from "./components/ui/label";
 export { Separator } from "./components/ui/separator";
 export { Progress } from "./components/ui/progress";
+export { MetricCard } from './components/ui/metric-card'
+export type { MetricCardProps, MetricCardTrend } from './components/ui/metric-card'
 export {
   Field,
   FieldLabel,
