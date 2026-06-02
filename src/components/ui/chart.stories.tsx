@@ -4,8 +4,6 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-  ChartLegend,
-  ChartLegendContent,
 } from './chart'
 import type { ChartConfig } from './chart'
 
